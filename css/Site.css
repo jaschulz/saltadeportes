@@ -1,0 +1,210 @@
+﻿body
+{
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    /*padding-top: 50px !important;*/
+}
+
+.body .container
+{
+    border-radius: 15px;
+    background-color: #fff;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border: 1px solid #bdbdbd;
+	margin-bottom: -12px;
+    padding-bottom: 12px;
+}
+
+.body
+{
+    padding-top: 70px;
+}
+
+header, footer, nav, section
+{
+    display: block;
+}
+
+
+/******************************************- Estilos Input Basicos -*****************************************/
+
+fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea
+{
+    min-height: 75px;
+}
+
+.editor-label
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field
+{
+    margin: 0.5em 0 0 0;
+}
+
+
+/*****************************************- Estilos Input Validator -****************************************/
+
+.field-validation-error
+{
+    color: #f00;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    color: #a94442 !important;
+    border: 1px solid #f00 !important;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/************************************************************************************************************/
+
+footer
+{
+    background: rgba(0, 0, 0, 0) url("../Imagenes/bg_dark2.png") repeat scroll 0 0 !important;
+    border-color: #080808;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.max-background
+{
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+.intro-header
+{
+    height: 350px;
+}
+
+.portrait-grid {
+    display: block;
+    margin: 0 0 0 -24px;
+    position: relative;
+}
+
+.portrait-grid li {
+    display: block;
+    float: left;
+    margin-left: 12px;
+    position: relative;
+}
+
+.portrait-grid .contenedorAnime {
+    margin: 5px 0;
+    padding: 5px;
+    color: #3f3f3f;
+}
+
+.portrait-grid .contenedorAnime p {
+    margin: 0;
+}
+
+.containerShadow {
+    border-collapse: separate;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.containerShadow:hover {
+    border-collapse: separate;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+.ObjTransparent
+{
+    opacity: 0;
+}
+
+
+/*************************************************- Espere -*************************************************/
+.WaitPlease_ContenedorBloqueador
+{
+	display:none;
+	text-align: center;
+	z-index: 99999;
+	border: medium none;
+	position: fixed;
+	opacity: 0.8;
+    padding: 0px;    
+    background-color: #000;
+    margin: 0px;
+    width: 100%;
+    zoom: 1;
+    height: 100%;
+    cursor: wait;
+    top: 0px;
+    left: 0px;
+	behavior: url("PIE.htc");
+}
+
+.WaitPlease_ContenedorMensaje_OLD
+{
+	display:none;
+	
+	z-index: 1000001;
+	border: medium none;
+	position: fixed;
+	text-align: center;
+    opacity: 0.65;
+    background-color: #fff;
+    margin: 0px;
+    width: 30%;
+    padding: 15px;
+    zoom: 1;
+    color: #fff;
+    cursor: wait;
+    /*top: 40%;
+    left: 35%;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 12px;
+    
+	border-radius: 15px;
+	box-shadow: #aaa 1px 1px 6px;
+	behavior: url("PIE.htc");
+}
+
+.WaitPlease_ContenedorMensaje
+{
+	display:none;
+	height: 100%;
+    position: fixed;
+    top: 90px;
+    width: 100%;
+    z-index: 999999;
+	behavior: url("PIE.htc");
+}
+/************************************************************************************************************/

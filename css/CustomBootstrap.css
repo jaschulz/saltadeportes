@@ -1,0 +1,271 @@
+﻿body {
+    background-color: #eaeaea !important;
+    padding-top: 50px !important;
+}
+
+.bg_trans_gray
+{ background: url("../Imagenes/bg_gray.png") scroll 0 0 rgba(0, 0, 0, 0) !important; }
+
+.bg_trans_dark
+{ 
+
+background: url("../Imagenes/bg_dark.png") scroll 0 0 rgba(0, 0, 0, 0) !important; 
+
+}
+
+.row.item
+{ padding-bottom: 10px; }
+
+.row.item a
+{ color: #333; }
+
+/*******************************************- Carusel de Imagenes -******************************************/
+
+.carousel-custom
+{ margin-bottom: 40px; }
+
+.carousel-custom .carousel-caption
+{
+    left: 0;
+    padding-bottom: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.carousel-custom .carousel-caption h4
+{ margin-bottom: 3px; }
+
+.carousel-custom .carousel-indicators {
+    bottom: -35px;
+}
+
+.carousel-indicators li {
+    border: 1px solid #868686;
+}
+
+.carousel-indicators .active {
+    background-color: #868686;
+}
+
+/************************************************************************************************************/
+
+/*************************************************- Top Nav -************************************************/
+
+.header_navbar
+{ font-weight: bold; }
+
+.nav > li > a {
+    padding: 15px 10px !important;
+}
+
+.nav-tab-busqueda .tab-content .tab-pane button
+{ margin: 10px 0 0 10px; }
+
+.navbar-user-toggle {
+    display: block;
+}
+.navbar-light-user-toggle {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .navbar-user-toggle {
+        display: none;
+    }
+
+    .navbar-light-user-toggle {
+        display: block !important;
+    }
+}
+
+.navContentAvatar img
+{
+    height: 95px;
+    width: 95px;
+    margin-top: -40px;
+}
+
+a:hover
+{
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+/************************************************************************************************************/
+
+/**************************************************- User -**************************************************/
+
+.row .contentAvatar img
+{
+    height: 150px;
+    width: 150px;
+}
+
+.contentUser
+{
+    margin-top: -20px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.contentUser h2
+{
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.contentUser small
+{
+    color: #fff !important;
+}
+
+@media (max-width: 992px) { 
+    .contentUser
+    {
+        margin-top: -20px;
+        color: #26272c;
+        padding-left: 15px;
+    }
+   
+    .contentUser h2
+    {
+        text-shadow: -2px -2px 1px #dddddd, 2px 2px 1px #dddddd, -2px 2px 1px #dddddd, 2px -2px 1px #dddddd;
+    }
+
+    .contentUser small
+    {
+        color: #26272c !important;
+    }
+    
+    .nav-stacked > li {
+      float: left !important;
+    }
+    .nav-stacked > li + li {
+      margin-top: 0 !important;
+      margin-left: 2px !important;
+    }
+}
+
+.estado
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #26272c;
+}
+
+/************************************************************************************************************/
+
+/*******************************************- Paneles de Colores -*******************************************/
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+
+.panel-heavenly {
+    border-color: #19D4D4;
+}
+
+.panel-heavenly .panel-heading {
+    border-color: #19D4D4;
+    color: #fff;
+    background-color: #19D4D4;
+}
+
+.panel-heavenly a {
+    color: #19D4D4;
+}
+
+.panel-heavenly a:hover {
+    color: #118a8a;
+}
+
+/************************************************************************************************************/
+
+/*******************************************- Pestañas Centradas -*******************************************/
+
+.centered-pills
+{
+    text-align: center;
+}
+
+.centered-pills ul.nav-pills
+{
+    display: inline-block;
+}
+
+.centered-pills li
+{
+    display: inline;
+}
+
+.centered-pills a
+{
+    float: left;
+}
+
+* html .centered-pills ul.nav-pills, * + html .centered-pills ul.nav-pills
+{
+    display: inline;
+}
+
+.panel {
+    margin-bottom: 20px;
+}
+/************************************************************************************************************/

@@ -1,0 +1,33 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<b>Tipos de maderas y sus características</b>
+				</br>
+					Para pisos de interior, pisos de exterior, techos y pérgolas de corte constante con stock
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+<?php
+		$username = "root";
+		$password = "";
+		$hostname = "localhost"; 
+
+		$dbhandle = mysql_connect($hostname, $username, $password)
+		or die("Unable to connect to MySQL");
+		
+		
+		$selected = mysql_select_db("saltadeportes",$dbhandle)
+		
+
+		$sql = "SELECT * FROM `productos`";
+		$result = mysql_query($sql);
+		while ($row = mysql_fetch_array($result)) {
+		
+			echo "ID:".$row{'DESCRIPCION'};
+		}
+		echo "hola"
+?>
