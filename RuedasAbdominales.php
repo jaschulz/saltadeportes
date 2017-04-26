@@ -12,8 +12,8 @@ $tpl = new tplClass();
 		$selected = mysql_select_db("saltadeportes",$dbhandle);
 		
 
-		$data["TITULO"] = "Coordinaci&oacute;n";
-		$sql = "SELECT * FROM `productos` where TIPO = 'coordinacion'";
+		$data["TITULO"] = "Ruedas Abdominales";
+		$sql = "SELECT * FROM `productos` where TIPO = 'Ruedas Abdominales'";
 		$result = mysql_query($sql);
 		$half   = floor(mysql_num_rows($result)/2);
 		$data["CONTENIDO"] = "
@@ -33,7 +33,7 @@ $tpl = new tplClass();
 					<div class=\"col-md-6\">
 						<div id=\"accordion\" class=\"panel-group\">";
 						$i = 1;
-		while ($i <= $half + 1 && $row = mysql_fetch_array($result)) {
+		while ($i <= $half && $row = mysql_fetch_array($result)) {
 		
 		$data["CONTENIDO"] .=  
 								"<div class=\"panel panel-default\">
